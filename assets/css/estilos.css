@@ -1,0 +1,59 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+}
+
+.home__banner {
+    width: 500px;
+    height: 118px;
+}
+
+.home__titulo {
+    font-size: 20px;
+    line-height: 2rem;
+}
+
+.home__tabela {
+    border: 1px solid #9bc7c9;
+}
+
+.home__tabela--celula {
+    padding: 15px 20px;
+    border-bottom: 1px solid #9bc7c9;
+}
+
+.home__tabela--cabecalho {
+    font-size: 18p;
+    font-weight: bold;
+}
+
+.home__link--novofuncionario {
+    text-decoration: none;
+    color: #000;
+    padding: 10px 10px;
+    border: 1px solid rgb(120, 215, 228);
+    background: rgb(120, 215, 228);
+    border-radius: 5px;
+}
+
+.home__link--acoes {
+    text-decoration: none;
+    color: rgb(42, 104, 197)7c9
+}
+
+.home__link--acoes:hover {
+    text-decoration: underline;
+    color: rgb(38, 20, 199)7c9
+}
+
+.home__link--acoes:visited {
+    text-decoration: underline;
+    color: rgb(38, 20, 199)7c9
+}
