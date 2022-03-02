@@ -1,6 +1,5 @@
 body {
     font-family: "Montserrat", sans-serif;
-    align-items: center;
 }
 
 .container {
@@ -11,17 +10,20 @@ body {
 }
 
 .home__banner {
-    width: 500px;
+    width: 600px;
     height: 118px;
 }
 
 .home__titulo {
     font-size: 20px;
     line-height: 2rem;
+    margin: 40px 10px;
 }
 
-.home__tabela {
-    border: 1px solid #9bc7c9;
+.home__texto {
+    line-height: 2rem;
+    margin: 20px 10px;
+    font-weight: bold;
 }
 
 .home__tabela--celula {
@@ -45,15 +47,61 @@ body {
 
 .home__link--acoes {
     text-decoration: none;
-    color: rgb(42, 104, 197)7c9
+    color: rgb(42, 104, 197)
+}
+
+.home__link--acoes:link {
+    text-decoration: none;
+    color: rgb(42, 104, 197)
 }
 
 .home__link--acoes:hover {
-    text-decoration: underline;
-    color: rgb(38, 20, 199)7c9
+    font-weight: bold;
+    color: rgb(42, 104, 197)
 }
 
 .home__link--acoes:visited {
-    text-decoration: underline;
-    color: rgb(38, 20, 199)7c9
+    text-decoration: none;
+    color: rgb(42, 104, 197)
+}
+
+.home__link--acoes:active {
+    text-decoration: none;
+    color: rgb(42, 104, 197)
+}
+
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 500px;
+    padding: 2em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+.formulario p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.formulario__input {
+    font-size: 1rem;
+    border-radius: 3px;
+    width: 400px;
+    padding: 10px;
+    color: black;
+    margin: 10px 10px;
+    border: 1px solid;
+}
+
+.formulario__input--botao {
+    background-color: #9bc7c9;
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid;
+    color: black;
 }
