@@ -6,7 +6,7 @@ CREATE TABLE IF NOT EXISTS funcionarios (
 	`id`  INT AUTO_INCREMENT,
 	`nome` VARCHAR(100) NOT NULL,
 	`nasc` DATE NOT NULL,
-	`cpf` INT(11) NOT NULL,
+	`cpf` VARCHAR(11) NOT NULL,
 	`email` VARCHAR(50) NOT NULL,
 	`civil` VARCHAR(12) NOT NULL,
 	PRIMARY KEY (id)
