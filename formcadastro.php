@@ -17,7 +17,7 @@
            <p>Data de Nascimento:</p> <input class="formulario__input" type="date" name="nasc" id="nasc" placeholder="10/10/1980" required>
            <p>CPF:</p> <input class="formulario__input" type="text" name="cpf" id="cpf" placeholder="12345678910" required>
            <p>E-mail:</p> <input class="formulario__input" type="email" name="email" id="email" placeholder="nome@email.com" required>
-           <p>Estado Civil:</p> <input class="formulario__input" type="text" name="civil" id="civil" placeholder="Solteiro/casao" required>
+           <p>Estado Civil:</p> <input class="formulario__input" type="text" name="civil" id="civil" placeholder="Solteiro/casado" required>
            <input class="formulario__input--botao" type="submit" value="Cadastrar">
         </form>
     </div>
