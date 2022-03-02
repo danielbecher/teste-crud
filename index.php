@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/reset.css">
     <link rel="stylesheet" href="/assets/css/estilos.css">
     <title>Cadastro de Funcionários</title>
 </head>
 <body>
     <div class="container">
-        <img class='home__banner' src='./assets/img/banner.png'>
+        <a href="index.php"><img class="home__banner" src='./assets/img/banner.png'></a>
         <?php
             //Importa a biblioteca de conexão ao DB.
             include_once "conecta.php";
