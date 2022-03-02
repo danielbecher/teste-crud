@@ -1,5 +1,7 @@
 CREATE DATABASE IF NOT EXISTS empresa;
 
+USE empresa;
+
 CREATE TABLE IF NOT EXISTS funcionarios (
 	`id`  INT AUTO_INCREMENT,
 	`nome` VARCHAR(100) NOT NULL,
@@ -10,4 +12,5 @@ CREATE TABLE IF NOT EXISTS funcionarios (
 	PRIMARY KEY (id)
 );
 
-SELECT * FROM FUNCIONARIOS
+INSERT INTO funcionarios (nome,nasc,cpf,email,civil) VALUES (
+	"Daniel Becher","1983-10-19","05121156995","daniel@becher.com.br","Solteiro" );
